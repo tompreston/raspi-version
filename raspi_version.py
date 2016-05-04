@@ -2,7 +2,7 @@
 import re
 
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 
 REVISION_INFO = {
@@ -31,7 +31,7 @@ REVISION_INFO = {
 }
 
 
-def get_rpi_version():
+def get_rpi_revision():
     """Returns the version number from the revision line."""
     for line in open("/proc/cpuinfo"):
         if "Revision" in line:
@@ -41,7 +41,7 @@ def get_rpi_version():
 
 if __name__ == '__main__':
     try:
-        revision = get_rpi_version()
+        revision = get_rpi_revision()
         rpi_info = REVISION_INFO[revision]
     except KeyError:
         print("Not on a Raspberry Pi")
