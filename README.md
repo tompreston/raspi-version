@@ -1,6 +1,5 @@
-#############
 Raspi Version
-#############
+=============
 Detect your current Raspberry Pi version. Please update if you see any
 inconsistencies.
 
