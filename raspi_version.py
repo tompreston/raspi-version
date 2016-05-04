@@ -35,7 +35,6 @@ def get_rpi_revision():
     """Returns the version number from the revision line."""
     for line in open("/proc/cpuinfo"):
         if "Revision" in line:
-            # return line.replace('Revision\t: ', '')
             return re.sub('Revision\t: ([a-z0-9]+)\n', r'\1', line)
 
 
