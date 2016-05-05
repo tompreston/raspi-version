@@ -11,3 +11,5 @@ Example (try it right now!):
     PCB Revision: 1.1
     Memory:       1 GB
     Notes:        Mfg by Sony
+
+Board revisions are [here](http://elinux.org/RPi_HardwareHistory#Board_Revision_History). Keep up to date if you see any inconsistencies.
