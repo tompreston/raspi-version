@@ -4,7 +4,7 @@ Detect your current Raspberry Pi version.
 
 Example (try it right now!):
 
-    >>> curl https://raw.githubusercontent.com/tompreston/raspi-version/master/raspi_version.py | python3
+    >>> curl -s https://raw.githubusercontent.com/tompreston/raspi-version/master/raspi_version.py | python3
     Revision:     a01041
     Release date: Q1 2015
     Model:        2 Model B
